@@ -1,4 +1,4 @@
-📦 Inventory Pro v1.0
+📦 Personal Inventory v1.0
 A streamlined, high-efficiency mobile solution for real-time inventory tracking and stock management. Designed for speed, accuracy, and ease of use.
 
 📥 Direct Download (Demo)
