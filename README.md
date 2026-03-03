@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+📦 Inventory Pro v1.0
+A streamlined, high-efficiency mobile solution for real-time inventory tracking and stock management. Designed for speed, accuracy, and ease of use.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+📥 Direct Download (Demo)
+Experience the app immediately:
+👉 [Download Android APK (v1.0.0)](https://github.com/hayZedTech/Personal-Inventory/releases/latest) (Note: Visit the Releases section to find the latest stable APK build)
 
-## Get started
+✨ Key Features
+🔍 Smart Barcode Scanning: Use your device camera to instantly scan items for quick entry or stock lookup.
 
-1. Install dependencies
+📋 Live Stock Tracking: Real-time dashboard to monitor current inventory levels and item details.
 
-   ```bash
-   npm install
-   ```
+➕ Rapid Entry: Simplified "Add Product" workflow to digitize physical stock in seconds.
 
-2. Start the app
+🖼️ Visual Catalog: View inventory items with high-quality images and structured data.
 
-   ```bash
-   npx expo start
-   ```
+🔐 Secure Cloud Sync: Powered by Supabase to ensure your data is backed up and accessible across devices.
 
-In the output, you'll find options to open the app in a
+🛠️ Management Tools: Easily edit, delete, or update item specifics on the fly.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🛠 Tech Stack
+Frontend: React Native with Expo (File-based Routing)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Database: Supabase (Real-time DB & Storage)
 
-## Get a fresh project
+Scanning: Expo Camera / Barcode Scanner
 
-When you're ready, run:
+UI Components: React Native Paper & Ionicons
 
-```bash
-npm run reset-project
-```
+🚀 Getting Started
+1. Prerequisites
+Install Node.js
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Install the Expo Go app on your smartphone
 
-## Learn more
+2. Setup
+Clone the repository and install dependencies:
 
-To learn more about developing your project with Expo, look at the following resources:
+Bash
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
+npm install
+3. Environment Config
+Create a .env file in the root directory:
 
-## Join the community
+Code snippet
 
-Join our community of developers creating universal apps.
+EXPO_PUBLIC_SUPABASE_URL=your_supabase_url
+EXPO_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+4. Run the App
+Bash
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npx expo start
+Scan the QR code with your Expo Go app to launch the inventory dashboard.
+
+🤝 Support & Contributions
+Found a bug or have a feature request? Open an issue on the GitHub repository.
