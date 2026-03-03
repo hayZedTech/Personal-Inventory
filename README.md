@@ -3,6 +3,7 @@ A streamlined, high-efficiency mobile solution for real-time inventory tracking 
 
 📥 Direct Download (Demo)
 Experience the app immediately:
+
 👉 [Download Android APK (v1.0.0)](https://github.com/hayZedTech/Personal-Inventory/releases/latest) (Note: Visit the Releases section to find the latest stable APK build)
 
 ✨ Key Features
